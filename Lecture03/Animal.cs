@@ -1,10 +1,7 @@
 ﻿namespace Lecture03;
 
-public class Animal
+public abstract class Animal
 {
-    public virtual void Sound()
-    {
-        Console.WriteLine("Unknown sound");
-    }
+    public abstract void Sound();
 
 }
